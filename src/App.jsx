@@ -1,7 +1,8 @@
 
 import './App.css'
 
-import { Routes } from 'react-router-dom'
+// import { Routes } from 'react-router-dom'
+import Footer from './components/Footer'
 
 function App() {
  
@@ -9,9 +10,7 @@ function App() {
   return (
     <>
     
-      <Routes>
-        hello
-   </Routes>
+     <Footer/>
     </>
   )
 }
